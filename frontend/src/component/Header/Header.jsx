@@ -35,8 +35,10 @@ const Header = () => {
   };
 
   return (
-    <div className="main_header" style={{ backgroundColor: "black" }}>
+    <div className="main_header" >
+       <span>MusicMix</span>
       <div className="left">
+        
         <img
           src={logo}
           alt="Your Logo"
