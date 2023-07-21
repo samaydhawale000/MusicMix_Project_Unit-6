@@ -3,42 +3,61 @@ body {
   font-family: sans-serif;
 }
 
-
-/* .App {
-  text-align: center;
+.rhap_main-controls button {
+  color: #1DB954;
+}
+.rhap_time{
+color: #ffffff;
+}
+.rhap_time, .rhap_total-time{
+color: #fff;
+background-color: #131313;
+}
+.rhap_main, .rhap_stacked{
+ background-color: #131313;
+}
+.rhap_container, .rhap_loop--off, .rhap_play-status--paused{
+  background-color: #131313;
+}
+.rhap_progress-section{
+  background-color: #131313;
+}
+.rhap_progress-container{
+  background-color: #131313;
+}
+.rhap_progress-indicator{
+  color: #1DB954;
+}
+.rhap_controls-section{
+  background-color: #131313;
+}
+.rhap_additional-controls, .rhap_volume-controls, .rhap_volume-controls, .rhap_volume-container, .rhap_volume-bar-area{
+  background-color: #131313;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.rhap_container, .svg{
+  background-color: #1DB954;
+} 
+*{
+  background-color: rgb(22, 22, 22);
+}
+.rhap_time {
+  color: #fff !important
+}
+.rhap_progress-filled{
+  background: #1DB954 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.rhap_progress-indicator {
+  background-color: #1DB954 !important ;
+  width: 12px !important;
+    height: 12px !important;
+    top: -4px !important ;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.rhap_volume-indicator{
+  background-color: #1DB954 !important
 }
-
-.App-link {
-  color: #61dafb;
+.rhap_progress-bar{
+height: 3.4px !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
