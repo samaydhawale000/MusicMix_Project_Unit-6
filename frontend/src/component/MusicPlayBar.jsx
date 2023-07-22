@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactH5AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
-import "../App.css";
+import "./component.css";
 
-export default function MusicPlayBar({ songUrl, image, title,artist }) {
+
+
+export default function MusicPlayBar({ songUrl, image, title,artist,id}) {
+
   return (
     <div
       style={{
@@ -16,6 +19,7 @@ export default function MusicPlayBar({ songUrl, image, title,artist }) {
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
+        zIndex:"10"
       }}
     >
       <div
@@ -29,10 +33,11 @@ export default function MusicPlayBar({ songUrl, image, title,artist }) {
         }}
       >
         {image ? (
+          
           <img
             src={image}
             alt="img"
-            style={{ width: "70px", height: "100%",borderRadius:"5px"  }}
+            style={{ width: "70px", height: "100%",borderRadius:"5px" }}
           />
         ) : (
           <img
