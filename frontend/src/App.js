@@ -1,15 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './component/Header/Header';
-import MusicPlayBar from './component/MusicPlayBar';
-import {Footer} from './component/Footer/Footer';
+import {Routes,Route} from "react-router-dom"
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="App">
-        <Header/>
-        <MusicPlayBar />
-        <Footer/>
+    <div className="App" >
+       
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+        </Routes>
     </div>
   );
 }
