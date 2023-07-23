@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ReactH5AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
 import "./component.css";
@@ -61,7 +61,7 @@ export default function MusicPlayBar({ songUrl, image, title,artist,id}) {
     style={{
       backgroundColor: "black",
       color: "white",
-      width: "68%",
+      width: "60%",
       margin: "0 auto",
       backgroundColor: "#131313",
       padding: "16px 20px 16px 20px",
@@ -76,7 +76,7 @@ export default function MusicPlayBar({ songUrl, image, title,artist,id}) {
         style={{
           backgroundColor: "black",
           color: "white",
-          width: "68%",
+          width: "62%",
           margin: "0 auto",
           backgroundColor: "#131313",
           padding: "16px 20px 16px 20px",

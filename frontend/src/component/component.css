@@ -73,13 +73,13 @@
     font-size: 16px;
   }
   .linkDiv>input{
-    width: 100%;
+    width: 92%;
     background-color: black;
     border: 1px solid #8f8f8f;
     font-size: 16px;
     color: #fff;
     border-radius: 8px;
-    height: 35px;
+    height: 22px;
     padding: 10px;
   }
   input::-webkit-input-placeholder{
@@ -129,7 +129,7 @@
   }
   .songCardDiv>img{
     width: 100%;
-    height: 180px;
+    height: 160px;
     margin: auto;
     display: block;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -158,4 +158,28 @@
   .songCardDiv>button:hover{
     background-color: #0c913b;
     color: #fff;
+  }
+
+  .footerDiv{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footerDiv>div>div>h3{
+    font-size: 17px;
+  }
+  .fooLinks{
+    color: #8f8f8f;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+
+  .fooLinks:hover{
+    color: #ffffff;
+    text-decoration: underline;
+    display: block;
+
   }
