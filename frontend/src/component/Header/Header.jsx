@@ -36,7 +36,7 @@ const Header = () => {
 
   return (
     <div className="main_header" >
-       <span>MusicMix</span>
+      
       <div className="left">
         
         <img
@@ -45,6 +45,7 @@ const Header = () => {
           onClick={push}
           style={{ cursor: "pointer" }}
         />
+         <span style={{fontSize:"35px"}}>MusicMix</span>
       </div>
       <div className="right">
         <div className="search_bar">
