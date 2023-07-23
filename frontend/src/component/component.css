@@ -39,9 +39,9 @@
   .rhap_progress-filled{
     background: #1DB954 !important;
   }
-  body{
+  /* body{
     background-color: #1a1a1a;
-  }
+  } */
   .rhap_progress-indicator {
     background-color: #1DB954 !important ;
     width: 12px !important;
@@ -72,7 +72,7 @@
     text-decoration: none;
     font-size: 16px;
   }
-  .linkDiv>input{
+  /* .linkDiv>input{
     width: 92%;
     background-color: black;
     border: 1px solid #8f8f8f;
@@ -81,7 +81,7 @@
     border-radius: 8px;
     height: 22px;
     padding: 10px;
-  }
+  } */
   input::-webkit-input-placeholder{
     color:#959595
   }
@@ -168,6 +168,7 @@
 
   .footerDiv>div>div>h3{
     font-size: 17px;
+    margin-bottom:20px
   }
   .fooLinks{
     color: #8f8f8f;

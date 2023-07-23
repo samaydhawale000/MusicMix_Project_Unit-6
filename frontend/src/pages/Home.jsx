@@ -10,7 +10,7 @@ export default function Home() {
     setSearch(a)
   }
   return (
-    <div style={{height: "100%"}}>
+    <div style={{height: "100%", background:"#1a1a1a"}}>
         <Navbar handleChange={handleChange}/>
         <Songspage search={search}/>  
         <MusicPlayBar/>

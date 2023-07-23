@@ -12,14 +12,15 @@ export default function MusicPlayBar({ songUrl, image, title,artist,id}) {
       style={{
         backgroundColor: "black",
         width: "100%",
-        padding: "20px 30px 20px 30px",
+        padding: "40px 30px 20px 30px",
         boxSizing: "borser-box",
         position: "fixed",
         bottom: "0",
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
-        zIndex:"10"
+        zIndex:"10",
+        borderTop:"1px solid rgb(37, 37, 37)"
       }}
     >
       <div

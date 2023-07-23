@@ -52,7 +52,7 @@ console.log(search)
         borderRadius: "10px",
       }}
     >
-      <h2>Best of what India listens to!</h2>
+      <h2 class="text-2xl font-semibold">Best of what India listens to!</h2>
       {isLoading ? (
         <h2 style={{ textAlign: "center", margin: "150px", color: "#1DB954" }}>
           Loading...

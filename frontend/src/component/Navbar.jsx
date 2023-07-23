@@ -7,7 +7,7 @@ export default function Navbar({handleChange}) {
   return (
     <div
       style={{
-        width: "17%",
+        width: "19.5%",
         background: "black",
         height: "560px",
         padding: "20px 20px 0px 20px",
@@ -19,12 +19,12 @@ export default function Navbar({handleChange}) {
     >
       <div className="logoDiv">
         <img src={logo} alt="logo" />
-        <h1>
+        <h1 class="text-3xl font-bold" >
           Music<span style={{ color: "#1DB954" }}>Mix</span>
         </h1>
       </div>
       <div className="linkDiv">
-        <input type="text" placeholder="Search Songs" onChange={(e)=>{handleChange(e.target.value)}} />
+        <input  className ="w-70 h-10 rounded-md border border-gray-400 px-4 bg-black text-white " type="text" placeholder="Search Songs" onChange={(e)=>{handleChange(e.target.value)}} />
         <br />
         <NavLink
           to="/"
