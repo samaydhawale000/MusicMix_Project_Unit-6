@@ -3,17 +3,18 @@ import logo from "../images/logo.png";
 import "./component.css";
 import { Link, NavLink } from "react-router-dom";
 
-export default function Navbar() {
+export default function Navbar({handleChange}) {
   return (
     <div
       style={{
-        width: "19.5%",
+        width: "17%",
         background: "black",
-        height: "585px",
+        height: "560px",
         padding: "20px 20px 0px 20px",
         baxSizing: "border-box",
         position: "fixed",
         borderRadius: "10px",
+        marginTop:"0px"
       }}
     >
       <div className="logoDiv">
@@ -23,7 +24,7 @@ export default function Navbar() {
         </h1>
       </div>
       <div className="linkDiv">
-        <input type="text" placeholder="Search Songs" />
+        <input type="text" placeholder="Search Songs" onChange={(e)=>{handleChange(e.target.value)}} />
         <br />
         <NavLink
           to="/"

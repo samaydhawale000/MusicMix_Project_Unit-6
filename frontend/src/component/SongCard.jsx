@@ -11,7 +11,6 @@ const [flag, setFlag] = useState(false)
        <img src={image} alt="image" />
        <button onClick={()=>{
         setFlag(true)
-        
        }}> <FontAwesomeIcon icon={faPlay} /></button>
        <h3>{title}</h3>
        <p>{artist}</p>
