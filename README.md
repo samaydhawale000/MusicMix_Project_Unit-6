@@ -45,6 +45,23 @@ The motive behind its development was to enhance their proficiency and gain prac
 - 👤 [Suraj]
 
 
+<h3>Getting Started</h3>
+To get started with the project, you can either clone this repository to your local machine:
+
+Or you can fork the repository to your own GitHub account and clone your forked repository.
+
+Once you have the code on your machine, open the project folder in your code editor and start coding.
+
+<h3>Project Structure</h3>
+
+    >frontend
+    ├── >src
+    │    └── Components
+    │    └── images
+    │    └── Pages
+    │    └── Redux
+    │    └── Styling
+
 
 
 
