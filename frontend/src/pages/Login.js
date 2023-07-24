@@ -67,7 +67,7 @@ const LoginComponent = () => {
                     Don't have an account?
                 </div>
                 <div className="border border-gray-500 text-gray-500 w-full flex items-center justify-center py-4 rounded-full font-bold  cursor-pointer hover:opacity-75">
-                    <Link to="/signup">SIGN UP FOR SPOTIFY</Link>
+                    <Link to="/signup">SIGN UP FOR MusicMix</Link>
                 </div>
             </div>
             <ToastContainer />
