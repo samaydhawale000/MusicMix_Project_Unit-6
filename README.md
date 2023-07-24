@@ -2,7 +2,7 @@
 MusicMix is an impressive Spotify clone, designed to offer a great user experience and Awesome Music Experiences for users
 
 
-<h4>Live Link: [https://musicmix.netlify.app/](https://musicmix.netlify.app/)</h4> 
+<h4>Live Link:https://musicmix.netlify.app/</h4> 
 
 
 ## About the Project:
