@@ -62,6 +62,11 @@ Once you have the code on your machine, open the project folder in your code edi
     │    └── Redux
     │    └── Styling
 
+<h3>Screenshots:</h3>
+<h1>Homepage</h1>
+<img src="./frontend/src/images/homepage.png" alt="screenshot" /> 
+<h1>SignUp</h1>
+<img src="./frontend/src/images/signup.jpg" alt="screenshot" /> 
 
 
 
