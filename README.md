@@ -5,7 +5,7 @@
 
 ## About
 
--TECHBAZAAR is an e-commerce web site for tech related products, designed to provide a user experience.
+MusicMix is an impressive Spotify clone, designed to offer a great user experience and Awesome Music Experiences for users
 
 
 ## Tech Stacks and Libraries used
