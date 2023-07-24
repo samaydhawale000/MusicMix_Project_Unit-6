@@ -1,7 +1,7 @@
 # MusicMix
 
 ## Techbazar Website Link
-
+https://64be279eee386832f926c7de--boisterous-paprenjak-bcef8e.netlify.app/
 
 ## About
 
