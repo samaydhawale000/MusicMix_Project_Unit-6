@@ -12,7 +12,7 @@ const LoginComponent = () => {
     const handleSubmit = () => {
         let obj = { email, password }
 
-        fetch(`https://frightened-baseball-cap-fish.cyclic.app/musixmix/users/login`, {
+        fetch(`https://musicmix-backend.onrender.com/musixmix/users/login`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

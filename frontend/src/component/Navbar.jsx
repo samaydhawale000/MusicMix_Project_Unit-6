@@ -24,7 +24,7 @@ export default function Navbar({handleChange}) {
         </h1>
       </div>
       <div className="linkDiv">
-        <input  className ="w-70 h-10 rounded-md border border-gray-400 px-4 bg-black text-white " type="text" placeholder="Search Songs" onChange={(e)=>{handleChange(e.target.value)}} />
+        <input  className ="w-70 h-10 rounded-md border border-gray-400 px-4 bg-black text-white" type="text" placeholder="Search Songs" onChange={(e)=>{handleChange(e.target.value)}} />
         <br />
         <NavLink
           to="/"

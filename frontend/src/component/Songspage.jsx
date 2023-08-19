@@ -7,13 +7,13 @@ import Navbar from "./Navbar";
 export default function Songspage({ search }) {
   const [data, setData] = useState([]);
   const [isLoading, setisLoading] = useState(false);
-console.log(search)
+  console.log(search);
   function getData() {
     setisLoading(true);
 
     !search
       ? axios
-          .get("https://frightened-baseball-cap-fish.cyclic.app/musixmix/songs")
+          .get("https://musicmix-backend.onrender.com/musixmix/songs")
           .then((res) => {
             setData(res.data.data);
             setisLoading(false);
@@ -24,11 +24,11 @@ console.log(search)
           })
       : axios
           .get(
-            `https://frightened-baseball-cap-fish.cyclic.app/musixmix?search=${search}`
+            `https://musicmix-backend.onrender.com/musixmix?search=${search}`
           )
           .then((res) => {
             setData(res.data.songs);
-            console.log(res.data.songs)
+            console.log(res.data.songs);
             setisLoading(false);
           })
           .catch((err) => {
@@ -54,7 +54,15 @@ console.log(search)
     >
       <h2 class="text-2xl font-semibold">Best of what India listens to!</h2>
       {isLoading ? (
-        <h2 style={{ textAlign: "center", margin: "150px", color: "#1DB954" }}>
+        <h2
+          style={{
+            textAlign: "center",
+            fontSize: "26px",
+            fontWeight: "bold",
+            margin: "150px",
+            color: "#1DB954",
+          }}
+        >
           Loading...
         </h2>
       ) : (
@@ -66,18 +74,32 @@ console.log(search)
             gap: "30px 20px",
           }}
         >
-          {data && data.map((e) => {
-            
-            return (
-              <SongCard
-                songUrl={e.source}
-                image={e.image}
-                title={e.title}
-                artist={e.artist}
-                id={e._id}
-              />
-            );
-          })}
+          {data.length > 0 ? (
+            data.map((e) => {
+              return (
+                <SongCard
+                  songUrl={e.source}
+                  image={e.image}
+                  title={e.title}
+                  artist={e.artist}
+                  id={e._id}
+                />
+              );
+            })
+          ) : (
+            <h2
+              style={{
+                textAlign: "center",
+                width: "100%",
+                margin: "auto",
+                fontSize: "24px",
+                margin: "150px",
+                color: "#1DB954",
+              }}
+            >
+              Oops! we are unable to find song
+            </h2>
+          )}
         </div>
       )}
 

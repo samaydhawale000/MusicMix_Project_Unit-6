@@ -42,7 +42,7 @@ const SignupComponent = () => {
         }
 
         let obj = { email, password, gender, name }
-        fetch(`https://frightened-baseball-cap-fish.cyclic.app/musixmix/users/register`, {
+        fetch(`https://musicmix-backend.onrender.com/musixmix/users/register`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

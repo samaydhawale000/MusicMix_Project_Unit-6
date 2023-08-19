@@ -6,6 +6,7 @@ import "./component.css";
 
 
 export default function MusicPlayBar({ songUrl, image, title,artist,id}) {
+  console.log(image)
 
   return (
     <div
@@ -33,8 +34,7 @@ export default function MusicPlayBar({ songUrl, image, title,artist,id}) {
           justifyContent: "space-between",
         }}
       >
-        {image ? (
-          
+        {image !=undefined ? (
           <img
             src={image}
             alt="img"
